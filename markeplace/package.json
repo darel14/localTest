@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/material": "^5.15.0",
+    "adm-zip": "^0.5.16",
+    "mongoose": "^8.18.0"
+  },
+  "scripts": {
+    "build": "cd marketplace_2bn && yarn install && yarn build"
+  }
+}

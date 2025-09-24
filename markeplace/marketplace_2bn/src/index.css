@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiBox-root.css-1gxc916 {
+    justify-content: space-between;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-novl0q-MuiButtonBase-root-MuiIconButton-root {
+    margin: 5% 0 0 0%;
+}
+
+.css-184w75b{
+  margin-top: 10%;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-8sh79p {
+    margin-top: 5%;
+}
+
+.header_product {
+    text-align: left!important;
+    width: 84%;
+    padding: 35px 0 1% 8%;
+}
+
+.product_card {
+    flex: 1;
+}
+
+@media (max-width: 414px) {
+  .MuiGrid-container {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    display: flex !important;
+  }
+  .product_card {
+    min-width: 270px !important;
+    max-width: 80vw;
+    flex-shrink: 0 !important;
+    margin-right: 16px;
+  }
+}
